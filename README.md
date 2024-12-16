@@ -51,48 +51,48 @@ Before running the project, ensure you have the following installed:
 
 ### 1. Clone the Repository
 Open Terminal (for Mac) or Open Command Prompt (for Windows):
-git clone https://github.com/iHarmin/usermanagementapi.git
-cd usermanagementapi
+- git clone https://github.com/iHarmin/usermanagementapi.git
+- cd usermanagementapi
 
 ### 2. Install these dependencies
-npm install express
-npm install dotenv
-npm install mysql
-npm install bcrypt
-npm install mocha chai chai-http --save-dev
-npm install jsonwebtoken
-npm install swagger-jsdoc swagger-ui-express
+- npm install express
+- npm install dotenv
+- npm install mysql
+- npm install bcrypt
+- npm install mocha chai chai-http --save-dev
+- npm install jsonwebtoken
+- npm install swagger-jsdoc swagger-ui-express
 
 ### 3. Create .env file
-PORT=3000
-MYSQL_PORT= **Enter your port number**
-MYSQL_HOST=localhost
-MYSQL_USER= **Enter your database user name** (For example: root)
-MYSQL_PASSWORD= **Enter your Database password**
-MYSQL_DATABASE=usermgmtapi
-JWT_KEY=qwe1234
+- PORT=3000
+- MYSQL_PORT= **Enter your port number**
+- MYSQL_HOST=localhost
+- MYSQL_USER= **Enter your database user name** (For example: root)
+- MYSQL_PASSWORD= **Enter your Database password**
+- MYSQL_DATABASE=usermgmtapi
+- JWT_KEY=qwe1234
 
 ### 4. Set Up the Database on MySQL
-CREATE DATABASE usermgmtapi;
+- CREATE DATABASE usermgmtapi;
 
-USE usermgmtapi;
+- USE usermgmtapi;
 
-CREATE TABLE registration (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  firstName VARCHAR(50),
-  lastName VARCHAR(50),
-  gender VARCHAR(10),
-  email VARCHAR(100) UNIQUE,
-  password VARCHAR(255),
-  number VARCHAR(15) UNIQUE
+- CREATE TABLE registration (
+  - id INT AUTO_INCREMENT PRIMARY KEY,
+  - firstName VARCHAR(50),
+  - lastName VARCHAR(50),
+  - gender VARCHAR(10),
+  - email VARCHAR(100) UNIQUE,
+  - password VARCHAR(255),
+  - number VARCHAR(15) UNIQUE
 );
 
 ### 5. Run the Application
-node app.js
+- node app.js
 
 ---
 
 ## API Documentation
 Detailed API documentation is available at:
 http://localhost:3000/api-docs
-**This documentation is built using Swagger and includes all endpoints, request/response formats, and authentication methods.**
+- **This documentation is built using Swagger and includes all endpoints, request/response formats, and authentication methods.**
