@@ -26,33 +26,6 @@ A User Management API System built with **Node.js**, **Express.js**, **HTML**, *
 
 ---
 
-## Project Structure 
-
-UserManagementAPI/
-├── api/
-│   ├── users/
-│   │   ├── user.controller.js    # Handles business logic
-│   │   ├── user.router.js        # Defines routes and middleware
-│   │   └── user.service.js       # Database queries
-│── auth/
-│   └── validate.js               # JWT Authentication middleware
-├── config/
-│   └── db.js                     # MySQL database connection setup
-├── frontend/
-│   ├── dashboard.html            # Other API features
-│   ├── login.html                # Login form
-│   └── register.html             # Register form
-├── swagger.json                  # API documentation
-├── test/
-│   └── user.test.js              # Unit tests
-├── .gitignore                    
-├── app.js                        # Main server file
-├── package-lock.json             # Dependencies and project metadata
-├── package.json                  # Dependencies and project metadata
-└── README.md                     # Project documentation
-
----
-
 ## Features
 
 - **User Registration**: Create a new user profile.
