@@ -73,19 +73,6 @@ Open Terminal (for Mac) or Open Command Prompt (for Windows):
 - JWT_KEY=qwe1234
 
 ### 4. Set Up the Database on MySQL
-- CREATE DATABASE usermgmtapi;
-
-- USE usermgmtapi;
-
-- CREATE TABLE registration (
-  - id INT AUTO_INCREMENT PRIMARY KEY,
-  - firstName VARCHAR(50),
-  - lastName VARCHAR(50),
-  - gender VARCHAR(10),
-  - email VARCHAR(100) UNIQUE,
-  - password VARCHAR(255),
-  - number VARCHAR(15) UNIQUE
-);
 
 ### 5. Run the Application
 - node app.js
